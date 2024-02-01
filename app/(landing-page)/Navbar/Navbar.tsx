@@ -25,7 +25,7 @@ function Navbar() {
         }
     }, []);
 
-    const navbarClass = `flex items-center justify-center space-x-18 bg-[#E5E4E2] md:px-10 sticky top-0 z-10 py-5 w-full overflow-x-hidden
+    const navbarClass = `flex items-center justify-center space-x-18 bg-[#E5E4E2] md:px-10 sticky top-0 z-50 py-5 
     ${hasScrolled ? 'shadow-xl ' : ''}  `
 
     return (
