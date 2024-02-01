@@ -128,10 +128,10 @@ function SecondSection() {
             </div>
             <div className="pt-10 hidden md:block">
                 {activeTab && (
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center gap-[20px]">
                         <div
-                            style={{ height: '525px', width: '700px' }}
-                            className="flex-col bg-gray-200 p-10 rounded-md"
+                           
+                            className="flex-col bg-gray-200 p-10 rounded-md w-[550px] h-[550px]"
                         >
                             <p className="text-4xl py-10 border-b underline">{activeTab.title}</p>
                             <div className="space-y-10 text-center justify-center">
@@ -156,9 +156,7 @@ function SecondSection() {
 
                             </div>
                         </div>
-                        <div
-                            className="bg-gradient-to-r from-gray-400 to-gray-100 items-center justify-center rounded-md flex"
-                            style={{ height: '525px', width: '700px' }}>
+                        <div className="bg-gradient-to-r from-gray-400 to-gray-100 items-center justify-center rounded-md flex w-[550px] h-[550px]">
                             <Image src={activeTab.image} width={530} height={530} className="rounded-md" alt="image" property="true" />
 
                         </div>
