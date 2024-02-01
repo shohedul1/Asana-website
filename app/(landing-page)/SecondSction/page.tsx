@@ -59,28 +59,30 @@ function SecondSection() {
     return (
         <div
             ref={ref}
-            className="flex flex-col justify-center items-center md:py-20 px-10">
-            <div className="flex justify-center items-center">
+            className="flex flex-col  md:mx-20 mx-10 pb-[20px]">
+            <div className="flex ">
                 <div style={{
                     transform: `translateY${isInView ? 0 : 100}px`,
                     opacity: isInView ? 1 : 0,
                     transition: 'all 1s ease-in-out',
                 }}
-                    className="md:flex md:space-x-20 border-b md:py-10 py-10"
+                    className="md:flex border-b my-[50px]"
                 >
-                    <div className="space-y-10">
+                    <div className="flex flex-col gap-[30px]">
                         <div className="text-3xl">
                             80% of Fortune 100 companies choose Asana1
                         </div>
-                        <div className="flex items-center space-x-9 hover:text-blue-500 text-lg ">
+                        <div className="flex items-center gap-[5px] hover:text-blue-500 text-lg ">
                             See how customers use bird
                             <ArrowRight className="w-6 h-6" />
                         </div>
                     </div>
+                   
+
                     <motion.div
                         initial={{ y: 100, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
-                        className="grid grid-cols-2 md:flex md:space-x-10 items-center justify-center py-10"
+                        className="grid grid-cols-2 md:flex md:gap-[20px] items-center justify-center sm:mx-[40px]"
                     >
                         <Image src={'/image/logo/logo1.webp'} alt="image" width={150} height={150} />
                         <Image src={'/image/logo/logo2.webp'} alt="image" width={150} height={150} />
@@ -89,36 +91,29 @@ function SecondSection() {
                     </motion.div>
                 </div>
             </div>
-
+            
+            
             <motion.div
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                className="text-4xl md:text-6xl hidden md:block pt-10  py-20"
+                className="text-4xl md:text-6xl text-center hidden md:block mb-[40px]"
             >
                 See how Teams are Bird
             </motion.div>
 
-            <div className="hidden md:flex items-center justify-center">
+            <div className="hidden md:flex items-center justify-center gap-[50px]">
                 {
                     tabs.map((tab) => (
                         <div
                             key={tab.name}
-                            className={`
-                         flex
-                         justify-center
-                         space-x-10
-                         w-60
-                         ${activeTab == tab ? 'border-b-4 pt-2 border-gray-500 text-gray-800' : 'text-muted-foreground'}
-                         `}
+                            className={` ${activeTab == tab ? 'border-b-4 pt-2 border-red-500 text-gray-800' : 'text-muted-foreground'}`}
 
                             onClick={() => setActiveTab(tab)}
                             style={{ cursor: 'pointer' }}
                         >
-                            <div className="flex text-3xl text-center items-center h-20 w-20 justify-center">
-                                <div>
+                            <div className="flex text-3xl text-center items-center justify-center ">
                                     {tab.name}
-                                </div>
-
+                              
                             </div>
 
                         </div>
