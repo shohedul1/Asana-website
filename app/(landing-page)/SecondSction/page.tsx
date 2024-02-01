@@ -40,7 +40,7 @@ const tabs = [
         image: '/image/logo/tabs4.webp',
     },
     {
-        name: 'Company-wide',
+        name: 'Company',
         title: 'Create a single source of truth',
         feature1: 'Connect your work to company goals',
         feature2: 'Automate workflows across departments',
