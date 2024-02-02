@@ -4,6 +4,7 @@ import FirstSction from './FirstSection/page'
 import SecondSection from './SecondSction/page'
 import ThirdSection from './ThirdSection/page'
 import FourSection from './FourSection/page'
+import FiveSection from './FiveSection/page'
 
 export default function LandingPage() {
   return (
@@ -13,6 +14,7 @@ export default function LandingPage() {
        <SecondSection/>
        <ThirdSection/> 
        <FourSection/>
+       <FiveSection/>
     </div>
   )
 }
