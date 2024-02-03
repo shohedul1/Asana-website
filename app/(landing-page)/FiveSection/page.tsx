@@ -19,6 +19,34 @@ const FiveSection = () => {
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">
             <AccordionTrigger
+              className="text-yellow-500 border-none"
+            >
+              Automate your workflows
+            </AccordionTrigger>
+            <AccordionContent  className="border-b border-yellow-500">
+              Put tasks an autopitot like assingeing work,setting dee dates, and mone
+              <div className="flex text-yellow-500 pt-4">
+                <div className="text-lg"> Get Starte</div>
+                <ArrowRight className="w-6 h-6 ml-4" />
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-2" >
+            <AccordionTrigger
+              className="text-rose-400"
+            >
+              Automate your workflows
+            </AccordionTrigger>
+            <AccordionContent className="border-b border-rose-500" >
+              Put tasks an autopitot like assingeing work,setting dee dates, and mone
+              <div className="flex text-rose-400 pt-4">
+                <div className="text-lg"> Get Starte</div>
+                <ArrowRight className="w-6 h-6 ml-4" />
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+          <AccordionItem value="item-3" >
+            <AccordionTrigger
               className="text-blue-400"
             >
               Automate your workflows
@@ -31,29 +59,29 @@ const FiveSection = () => {
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-2">
+          <AccordionItem value="item-4" >
             <AccordionTrigger
-              className="text-rose-400"
+              className="border-red-200"
             >
               Automate your workflows
             </AccordionTrigger>
-            <AccordionContent className="border-b border-rose-500">
+            <AccordionContent className="border-b border-red-200">
               Put tasks an autopitot like assingeing work,setting dee dates, and mone
-              <div className="flex text-blue-400 pt-4">
+              <div className="flex text-red-200 pt-4">
                 <div className="text-lg"> Get Starte</div>
                 <ArrowRight className="w-6 h-6 ml-4" />
               </div>
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3">
+          <AccordionItem value="item-5" >
             <AccordionTrigger
-              className="text-blue-400"
+              className="text-green-400"
             >
               Automate your workflows
             </AccordionTrigger>
-            <AccordionContent className="text-blue-400">
+            <AccordionContent className="border-b border-green-500">
               Put tasks an autopitot like assingeing work,setting dee dates, and mone
-              <div className="flex text-blue-400 pt-4">
+              <div className="flex text-green-400 pt-4">
                 <div className="text-lg"> Get Starte</div>
                 <ArrowRight className="w-6 h-6 ml-4" />
               </div>
@@ -62,10 +90,10 @@ const FiveSection = () => {
         </Accordion>
         </div>
 
-   
-
-       <Image src={'/image/home.webp'} alt="image" width={500} height={500} property="true"
+      <div className="px-10">
+      <Image src={'/image/home.webp'} alt="image" width={500} height={500} property="true"
        />
+      </div>
 
 
 

@@ -5,16 +5,22 @@ import SecondSection from './SecondSction/page'
 import ThirdSection from './ThirdSection/page'
 import FourSection from './FourSection/page'
 import FiveSection from './FiveSection/page'
+import { SixSection } from './SixSection/page'
+import SevenSection from './SevenSection/page'
+import EightSection from './EightSection/page'
 
 export default function LandingPage() {
   return (
     <div>
-       <Navbar/>
-       <FirstSction/>
-       <SecondSection/>
-       <ThirdSection/> 
-       <FourSection/>
-       <FiveSection/>
+      <Navbar />
+      <FirstSction />
+      <SecondSection />
+      <ThirdSection />
+      <FourSection />
+      <FiveSection />
+      <SixSection />
+      <SevenSection/>
+      <EightSection/>
     </div>
   )
 }
