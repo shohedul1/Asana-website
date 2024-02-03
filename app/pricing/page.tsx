@@ -1,8 +1,14 @@
-import React from 'react'
+'use client';
+
+import FirstSection from "./FirstSection/page";
+import Navbar from "./Navbar/Navbar";
 
 const PricingPage = () => {
   return (
-    <div>PricingPage</div>
+    <div>
+      <Navbar/>
+      <FirstSection/>
+    </div>
   )
 }
 
