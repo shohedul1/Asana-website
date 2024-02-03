@@ -8,6 +8,7 @@ import FiveSection from './FiveSection/page'
 import SevenSection from './SevenSection/page'
 import EightSection from './EightSection/page'
 import SixSection from './SixSection/page'
+import Footer from './Footer/page'
 
 export default function LandingPage() {
   return (
@@ -21,6 +22,7 @@ export default function LandingPage() {
       <SixSection/>
       <SevenSection/>
       <EightSection/>
+      <Footer/>
     </div>
   )
 }

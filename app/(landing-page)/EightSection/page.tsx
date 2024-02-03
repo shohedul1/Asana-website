@@ -26,6 +26,7 @@ const EightSection = () => {
                             <div className="mt-[5px] flex flex-col gap-[10px]">
                                 <div className="text-gray-200">Home</div>
                                 <div className="text-gray-200">Product</div>
+                                <div className="text-gray-200">What's New</div>
                                 <div className="text-gray-200">Pricing</div>
                                 <div className="text-gray-200">Premium</div>
                             </div>
@@ -33,10 +34,10 @@ const EightSection = () => {
                         <div className=" flex flex-col  gap-[30px]">
                             <div className="text-xl text-gray-200 bt-10">About Us</div>
                             <div className="mt-[5px] flex flex-col gap-[10px]">
-                                <div className="text-gray-200">Compay Leadership</div>
-                                <div className="text-gray-200">Product</div>
-                                <div className="text-gray-200">Pricing</div>
-                                <div className="text-gray-200">Premium</div>
+                                <div className="text-gray-200">Company </div>
+                                <div className="text-gray-200">Leadership</div>
+                                <div className="text-gray-200">Customers</div>
+                                <div className="text-gray-200">Diverity</div>
                             </div>
                         </div>
                         <div className=" flex flex-col  gap-[30px]">
@@ -44,11 +45,10 @@ const EightSection = () => {
                             <div className="mt-[5px] flex flex-col gap-[10px]">
                                 <div className="text-gray-200">Project Management</div>
                                 <div className="text-gray-200">Goal Management</div>
+                                <div className="text-gray-200">Increase Productvity</div>
                                 <div className="text-gray-200">Work Management</div>
-                                <div className="text-gray-200">Mark Management</div>
                                 <div className="text-gray-200">Project Planning</div>
                                 <div className="text-gray-200">To Do Lists</div>
-
 
                             </div>
                         </div>
