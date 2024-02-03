@@ -26,7 +26,7 @@ const EightSection = () => {
                             <div className="mt-[5px] flex flex-col gap-[10px]">
                                 <div className="text-gray-200">Home</div>
                                 <div className="text-gray-200">Product</div>
-                                <div className="text-gray-200">What's New</div>
+                                <div className="text-gray-200">What&apos;s New</div>
                                 <div className="text-gray-200">Pricing</div>
                                 <div className="text-gray-200">Premium</div>
                             </div>
