@@ -35,7 +35,7 @@ function AccotionButtons() {
                                     <Link href={"/"} passHref>
                                         Get Started
                                     </Link>
-                                    <Link href={"/"} passHref>
+                                    <Link href={"/pricing"} passHref>
                                         Pricing
                                     </Link>
                                     <Link href={"/"} passHref>

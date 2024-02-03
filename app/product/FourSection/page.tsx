@@ -4,7 +4,7 @@ import React from 'react'
 const FourSection = () => {
   return (
     <div className='md:py-20 py-0 space-y-20 items-center justify-center'>
-        <div className='text-4xl text-center'>The best platform for cross team work</div>
+        <div className='text-4xl text-center'>Our customers are building a better world with Bird</div>
         <div className='md:flex md:space-x-10 items-center px-10 justify-center'>
             <div className='bg-gradient-to-r from-gray-400 items-center justify-center rounded-md flex p-10'>
                 <Image 
