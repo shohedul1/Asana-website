@@ -1,9 +1,16 @@
-import React from 'react'
+'use client';
 
-export default function ContactPage() {
+import FirstSection from "./FirstSection/page";
+import Navbar from "./Navbar/Navbar";
+
+
+const ContactPage = () => {
   return (
     <div>
-        <h1>hi this is a contact page</h1>
+      <Navbar/>
+      <FirstSection/>
     </div>
   )
 }
+
+export default ContactPage

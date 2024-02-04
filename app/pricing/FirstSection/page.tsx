@@ -161,12 +161,17 @@ const FirstSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="md:flex p-10 md:space-x-10 space-y-10 md:space-y-0 items-center justify-center md:w-3/4  md:mx-auto">
+
+                <div className="md:flex p-10 md:space-x-10 md:space-y-0 items-center justify-center md:w-3/4  md:mx-auto">
                     <div className="border-purple-500 p-10 rounded-lg border space-y-8">
                         <div className="text-2xl">Premuin</div>
                         <div className="text-lg">For Teams that need to crete project plans with confidence</div>
-                        <div className="text-5xl font-semibold">US$0</div>
-                        <div className="text-md">Per User,per month billed annually $144</div>
+                        {isActivePlan ? (
+                           <div className="text-5xl font-semibol">US$12.99</div>
+                        ):(
+                            <div className="text-5xl font-semibol">US$99.99</div>
+                        )}
+                        <div className="text-md">Per User,per month billed annually</div>
                         <div className="text-center">
                             <button className="bg-blue-500 text-white px-4 py-2 rounded-lg text-xl w-full">
                                 Contact Sales
@@ -281,12 +286,17 @@ const FirstSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="md:flex p-10 md:space-x-10 space-y-10 md:space-y-0 items-center justify-center md:w-3/4  md:mx-auto">
-                    <div className="border-gray-500 p-10 rounded-lg border space-y-8 ">
-                        <div className="text-2xl">Basic</div>
+
+                <div className="md:flex p-10 md:space-x-10 md:space-y-0 items-center justify-center md:w-3/4  md:mx-auto">
+                    <div className="border-blue-500 p-10 rounded-lg border space-y-8">
+                        <div className="text-2xl">Business</div>
                         <div className="text-lg">For Teams that need to crete project plans with confidence</div>
-                        <div className="text-5xl font-semibold">US$0</div>
-                        <div className="text-md">Per User,per month billed annually $144</div>
+                        {isActivePlan ? (
+                           <div className="text-5xl font-semibol">US$49.99</div>
+                        ):(
+                            <div className="text-5xl font-semibol">US$599.99</div>
+                        )}
+                        <div className="text-md">Per User,per month billed annually</div>
                         <div className="text-center">
                             <button className="bg-blue-500 text-white px-4 py-2 rounded-lg text-xl w-full">
                                 Contact Sales
@@ -401,6 +411,7 @@ const FirstSection = () => {
                         </div>
                     </div>
                 </div>
+               
             </div>
 
         </div>
